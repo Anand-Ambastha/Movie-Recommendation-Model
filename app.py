@@ -146,6 +146,9 @@ def main():
                             index = movie[0]
                             title = movies_data[movies_data.index == index]['title'].values[0]
                             genres = movies_data[movies_data.index == index]['genres'].values[0]
+                            tagline= movies_data[movies_data.index == index]['tagline'].values[0]
+                            overview = movies_data[movies_data.index == index]['overview'].values[0]
+                            director = movies_data[movies_data.index == index]['director'].values[0]
                             
                             # Create a card-like display for each movie with new styling
                             st.markdown(f"""
