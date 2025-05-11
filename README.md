@@ -1,6 +1,6 @@
 # 🎬 Movie Recommendation System
 
-![Movie Recommendation System](screenshots/main.png)
+![Movie Recommendation System](main.png)
 *Dark-themed Movie Recommendation System Interface*
 
 ## 📝 Overview
@@ -107,12 +107,12 @@ streamlit run app.py
 ## 📸 Screenshots
 
 ### Main Interface
-![Main Interface](screenshots/main.png)
+![Main Interface](main.png)
 *The main interface with search functionality*
 
 ### Recommendations
-![Recommendations](screenshots/recommendation1.png)
-![Recommendations](screenshots/recommendations2.png)
+![Recommendations](recommendation1.png)
+![Recommendations](recommendations2.png)
 *Movie recommendations with genre information*
 
 ## 🤝 Contributing
