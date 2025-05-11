@@ -79,7 +79,7 @@ The dataset is pre-processed and ready to use. Simply ensure the `movies.csv` fi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/movie-recommendation-system.git
+git clone https://github.com/Anand-Ambastha/movie-recommendation-system.git
 cd movie-recommendation-system
 ```
 
