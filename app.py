@@ -5,14 +5,14 @@ import difflib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Set page config
+
 st.set_page_config(
     page_title="Movie Recommendation System",
     page_icon="🎬",
     layout="wide"
 )
 
-# Add custom CSS
+
 st.markdown("""
     <style>
     .main {
@@ -72,7 +72,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# Title and description
+
 st.title("🎬 Movie Recommendation System")
 st.markdown("""
     <div style='color: #E0E0E0;'>
@@ -81,7 +81,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-# Load and process data
+
 @st.cache_data
 def load_data():
     movies_data = pd.read_csv("movies.csv")
